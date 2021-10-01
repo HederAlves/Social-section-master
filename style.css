@@ -1,5 +1,24 @@
-
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
+.cabecalhoLadoEsquerdo{
+  box-sizing: border-box;
+  
 }
+
+li {
+  color: white;
+  width: 20%;
+  background: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  height: 250px;
+}
+
+img {
+  border-radius: 100%;
+  margin-top: 20px;}
+
+.titulosConteudoPrincipal {
+  font-size: 30px;
+  color: hsl(333, 80%, 67%);
+  margin: 20px 0px;
+}
+
+
