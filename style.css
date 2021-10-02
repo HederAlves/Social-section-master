@@ -1,6 +1,8 @@
 body {
   font-family: sans-serif;
-  padding: 10%;
+  margin: 0 auto;
+  width: 1440px;
+  padding-top: 80px;
 }
 
 .cabecalhoLadoEsquerdo{
@@ -9,13 +11,26 @@ body {
   color: hsl(300, 43%, 22%);
 }
 
+.paragrafoCabecalhoEsquerdo {
+  font-size: 20px;
+  line-height: 2.0;
+  margin-top: 5px;
+  width: 90%;
+  color: hsl(303, 10%, 53%);
+}
+
+.cabecalhoLadoDireito {
+  width: 800px;
+}
+
 h1 {
   font-weight: 600;
-  font-size: 50px;
-  width: 80%;
+  font-size: 60px;
+  width: 70%;
 }
 
 h2 {
+  display: flex;
   padding: 30px;
   font-size: 20px;
   width: 100%;
@@ -23,12 +38,19 @@ h2 {
   margin: 20px 0px 0px 0px;
   box-sizing: border-box;
   background: hsl(300, 24%, 96%);
+  border-radius: 10px;
 }
 
 .iconStar {
   background: url("icon-star.png");
-  width: 33%;
-  height: 16px;
+  background-repeat: space;
+  background-size: 20px;
+  width: 17%;
+  height: 25px;
+}
+
+.paragrafoCabecalhoDireito1 {
+  margin-right: 150px;
 }
 
 li {
@@ -36,13 +58,29 @@ li {
   width: 28%;
   background: hsl(300, 43%, 22%);
   border-radius: 10px;
-  height: 250px;
-  padding: 15px;
+  height: 300px;
+  padding: 25px;
+}
+
+.lista2 {
+  margin-top: 20px;
+}
+
+.lista3 {
+  margin-top: 40px;
+}
+
+.paragrafoConteudoPrincipal {
+  font-size: 16px;
+  color: hsl(300, 24%, 85%);
+  line-height: 2.0;
+
 }
 
 img {
   border-radius: 100%;
-  margin-top: 20px;}
+  margin-top: 20px;
+}
 
 .titulosConteudoPrincipal {
   font-weight: bold;
@@ -53,7 +91,6 @@ img {
 .subTitulosConteudoPrincipal {
   font-size: 28px;
   color: hsl(333, 80%, 67%);
-
 }
 
 
@@ -66,7 +103,8 @@ img {
 
 
 
-
-.attribution a {
+.attribution  {
   color: hsl(228, 45%, 44%);
+  margin-top: 20px;
+  text-align: center;
 }
