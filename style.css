@@ -93,18 +93,35 @@ img {
   color: hsl(333, 80%, 67%);
 }
 
-
-
-
-
-
-
-
-
-
-
 .attribution  {
   color: hsl(228, 45%, 44%);
   margin-top: 20px;
   text-align: center;
 }
+    /*MOBILE*/
+@media(max-width: 768px) {
+  body {
+    width: 375px;
+  }
+  
+  .cabecalhoLadoDireito {
+    width: initial;
+  }
+
+  h2 {
+    height: 117px;
+  }
+
+  .iconStar {
+    width: 37%;
+  }
+
+  li {
+    
+  }
+
+
+
+}
+
+
