@@ -15,12 +15,14 @@ body {
   font-size: 20px;
   line-height: 2.0;
   margin-top: 5px;
-  width: 90%;
+  width: 79%;
   color: hsl(303, 10%, 53%);
 }
 
 .cabecalhoLadoDireito {
-  width: 800px;
+  width: 700px;
+  color: hsl(300, 43%, 22%);
+  font-weight: bold;
 }
 
 h1 {
@@ -29,13 +31,37 @@ h1 {
   width: 70%;
 }
 
-h2 {
+.tituloLadoDireito1 {
   display: flex;
   padding: 30px;
   font-size: 20px;
   width: 100%;
   height: 80px;
   margin: 20px 0px 0px 0px;
+  box-sizing: border-box;
+  background: hsl(300, 24%, 96%);
+  border-radius: 10px;
+}
+
+.tituloLadoDireito2 {
+  display: flex;
+  padding: 30px;
+  font-size: 20px;
+  width: 100%;
+  height: 80px;
+  margin: 20px 0px 0px 50px;
+  box-sizing: border-box;
+  background: hsl(300, 24%, 96%);
+  border-radius: 10px;
+}
+
+.tituloLadoDireito3 {
+  display: flex;
+  padding: 30px;
+  font-size: 20px;
+  width: 100%;
+  height: 80px;
+  margin: 20px 0px 0px 100px;
   box-sizing: border-box;
   background: hsl(300, 24%, 96%);
   border-radius: 10px;
@@ -49,17 +75,13 @@ h2 {
   height: 25px;
 }
 
-.paragrafoCabecalhoDireito1 {
-  margin-right: 150px;
-}
-
 li {
   color: white;
   width: 28%;
   background: hsl(300, 43%, 22%);
   border-radius: 10px;
-  height: 300px;
-  padding: 25px;
+  height: 250px;
+  padding: 30px 25px 25px 40px;
 }
 
 .lista2 {
@@ -68,13 +90,6 @@ li {
 
 .lista3 {
   margin-top: 40px;
-}
-
-.paragrafoConteudoPrincipal {
-  font-size: 16px;
-  color: hsl(300, 24%, 85%);
-  line-height: 2.0;
-
 }
 
 img {
@@ -86,11 +101,36 @@ img {
   font-weight: bold;
   font-size: 30px;
   margin: 20px 0px 0px 0px;
+  width: 200px;
 }
 
 .subTitulosConteudoPrincipal {
   font-size: 28px;
   color: hsl(333, 80%, 67%);
+  width: 200px;
+}
+
+.titulosLista1 {
+    position: absolute;
+    margin: -90px 110px 0px;
+}
+
+.titulosLista2 {
+    position: absolute;
+    margin: -90px 110px 0px;
+}
+
+.titulosLista3 {
+    position: absolute;
+    margin: -90px 110px 0px;
+}
+
+.paragrafoConteudoPrincipal {
+    font-size: 20px;
+    color: hsl(300, 24%, 85%);
+    line-height: 1.5;
+    margin-top: 25px;
+    width: 374px;
 }
 
 .attribution  {
@@ -98,6 +138,8 @@ img {
   margin-top: 20px;
   text-align: center;
 }
+    
+
     /*MOBILE*/
 @media(max-width: 768px) {
   body {
