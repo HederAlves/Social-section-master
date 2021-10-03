@@ -4,16 +4,35 @@
 	height: 400px;
 }
 
-.containerConteudoPrincipal {
-	display: flex;
-	justify-content: space-between;
-}
-
 .containerTitulosCabecalhoDireito {
 	display: inline-flex;
 	justify-content: space-around;
 }
 
+
+.containerConteudoPrincipal {
+	display: flex;
+	justify-content: space-between;
+}
+
+
 img {
 	display: inline-flex;
+}
+
+		/*MOBILE*/
+@media(max-width: 768px) {
+
+	.containerCabecalho {
+		display: initial;
+	}
+    
+    .containerConteudoPrincipal {
+    	display: initial;
+    }
+
+    .containerTitulosCabecalhoDireito {
+		flex-direction: column;
+	}
+
 }
