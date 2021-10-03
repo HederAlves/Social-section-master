@@ -2,13 +2,14 @@
 	display: flex;
 	justify-content: space-between;
 	height: 400px;
+	width: 1340px;
 }
 
 .containerTitulosCabecalhoDireito {
 	display: inline-flex;
 	justify-content: space-around;
+	width: 100%;
 }
-
 
 .containerConteudoPrincipal {
 	display: flex;
@@ -16,9 +17,6 @@
 }
 
 
-img {
-	display: inline-flex;
-}
 
 		/*MOBILE*/
 @media(max-width: 768px) {
