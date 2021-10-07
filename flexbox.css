@@ -23,6 +23,7 @@
 
 	.containerCabecalho {
 		display: initial;
+		width: 100%;
 	}
     
     .containerConteudoPrincipal {
@@ -30,7 +31,7 @@
     }
 
     .containerTitulosCabecalhoDireito {
-		flex-direction: column;
+		display: initial;
 	}
 
 }
