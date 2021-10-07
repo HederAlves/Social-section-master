@@ -143,25 +143,81 @@ img {
     /*MOBILE*/
 @media(max-width: 768px) {
   body {
-    width: 375px;
+    width: 340px;
+    padding: 55px 0px 15px 0px;
   }
   
+  h1 {
+    text-align: center;
+    width: 100%;
+  }
+
+  .cabecalhoLadoEsquerdo  {
+    width: 100%;
+  }
+
+  .paragrafoCabecalhoEsquerdo {
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+  }
+
   .cabecalhoLadoDireito {
     width: initial;
   }
 
+  .tituloLadoDireito1{
+    padding: 15px;
+  }
+
+  .tituloLadoDireito2 {
+    margin: 20px 0px 0px 0px;
+    padding: 15px;
+  } 
+
+  .tituloLadoDireito3 {
+    margin: 20px 0px 0px 0px;
+    padding: 15px;
+  }
+
   h2 {
     height: 117px;
+    text-align: center;
   }
 
   .iconStar {
+    margin-left: 100px;
+    background-position: center;
     width: 37%;
   }
 
   li {
-    
+    margin-top: 20px;
+    width: 275px;
+    height: 320px;
   }
 
+  .titulosLista1 {
+    position: absolute;
+    margin: -90px 95px 0px;
+    width: 115px;
+  }
+
+  .titulosLista2 {
+      position: absolute;
+      margin: -90px 95px 0px;
+      width: 115px;
+  }
+
+  .titulosLista3 {
+      position: absolute;
+      margin: -90px 95px 0px;
+      width: 115px;
+  }
+
+    .paragrafoConteudoPrincipal {
+      width: 275px;
+    }
 
 
 }
